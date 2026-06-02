@@ -1,0 +1,8 @@
+POST https://api.github.com/repos/{votre_nom_github}/ScrollBlocker/actions/workflows/build.yml/dispatches
+Authorization: Bearer VOTRE_TOKEN
+Content-Type: application/json
+
+{
+  "ref": "main"
+}
+
